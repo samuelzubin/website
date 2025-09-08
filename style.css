@@ -1,0 +1,23 @@
+h1 {
+            font-family: Helvetica;
+            font-style: italic;
+            font-weight: lighter;
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: .5%;
+    margin-bottom: .8%;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.4);
+}
+.image img:hover {
+    transform: scale(1.004);
+}
